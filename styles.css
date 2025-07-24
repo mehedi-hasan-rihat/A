@@ -175,6 +175,13 @@ body {
   margin-bottom: 15px;
 }
 
+.bottom-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
 .product-card button {
   background-color: #f35b04;
   color: #fff;
@@ -414,8 +421,9 @@ body {
         }
 
         .newsletter-content {
-            max-width: 600px;
+            max-width: 1200px;
             margin: 0 auto;
+            padding:80px 0px;
         }
 
         .newsletter-title {
@@ -423,12 +431,11 @@ body {
             color: white;
             font-weight: bold;
             margin-bottom: 40px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .email-form {
             display: flex;
-            max-width: 500px;
+            max-width: 830px;
             margin: 0 auto;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
         }
@@ -472,7 +479,7 @@ body {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr auto;
             gap: 60px;
-           align-items: center;
+           align-items: start;
            justify-content: center;
  max-width: 1200px;
   margin: 0 auto;
@@ -604,7 +611,6 @@ body {
             }
 
             .email-form {
-                flex-direction: column;
                 max-width: 400px;
             }
 
