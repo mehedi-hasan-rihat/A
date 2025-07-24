@@ -76,7 +76,7 @@ body {
 .hero-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
@@ -310,6 +310,13 @@ body {
 
   #myLinks-desktop{
     display: none;
+  }
+
+  .hero-container{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
   }
 
   .image-container {
